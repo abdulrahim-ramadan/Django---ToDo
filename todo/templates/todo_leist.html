@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H3>Blog</H3>
+    <UL>
+        {% for item in todo %}
+
+            <li><a href="/blog/{{item.id}}">{{item}}</a></li> 
+
+    {% endfor %}  
+    </UL>
+</body>
+</html> 
