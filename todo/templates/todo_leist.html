@@ -7,13 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <H3>Blog</H3>
-    <UL>
+    <h3><a href="/blog">Blog</a></h3>
+    <ul>
         {% for item in todo %}
 
             <li><a href="/blog/{{item.id}}">{{item}}</a></li> 
 
     {% endfor %}  
-    </UL>
+    </ul>
 </body>
 </html> 

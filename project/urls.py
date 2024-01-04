@@ -16,13 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path , include
-from todo.views import post_list , post_detali
+from todo.views import post_list , post_detali,add_post
 from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/',post_list),
+    path('blog/new',add_post),
     path('blog/<int:id>',post_detali),
     path('summernote/', include('django_summernote.urls')),
 
