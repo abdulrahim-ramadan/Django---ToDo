@@ -3,21 +3,21 @@ from .models import Post
 from .forms import PostForm
 
 
-def post_list(request):
+def todo_list(request):
     data = Post.objects.all()
     return render(request,'todo_leist.html',{'todo':data})
 
 
 
 
-def post_detali(request,id):
+def todo_detali(request,id):
     data =Post.objects.get(id=id)
     return render(request,'tod_detail.html',{'tod': data})
 
 
 
 
-def add_post(request):
+def add_todo(request):
     if request.method =='POST':
         form = PostForm(request.POST)
         if form.is_valid():
@@ -27,12 +27,12 @@ def add_post(request):
 
         form = PostForm()
 
-    return render(request,'new_post.html',{'form':form})
+    return render(request,'new_todo.html',{'form':form})
 
 
 
 
-def edit_post(request,id):
+def edit_todo(request,id):
     post =Post.objects.get(id=id)
 
     if request.method =='POST':
@@ -44,10 +44,10 @@ def edit_post(request,id):
 
         form = PostForm(instance=post)
 
-    return render(request,'edit_post.html',{'form':form})
+    return render(request,'edit_todo.html',{'form':form})
 
 
-def delete_post(request,id):
+def delete_todo(request,id):
     post =Post.objects.get(id=id)
     post.delete()
     return redirect('/blog/')
