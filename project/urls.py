@@ -1,4 +1,4 @@
-"""
+""""
 URL configuration for project project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -16,18 +16,24 @@ Class-based views:
 Including another URLconf:
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
+""""
 from django.contrib import admin
 from django.urls import path , include
-from todo.views import post_list , post_detali
+from todo.views import todo_list , todo_detali,add_todo,edit_todo,delete_todo
 from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('blog/',post_list),
-    path('blog/<int:id>',post_detali),
+    path('blog/',todo_list),
+    path('blog/new',add_todo),
+    path('blog/<int:id>',todo_detali),
+    path('blog/<int:id>/edit', edit_todo),
+    path('blog/<int:id>/delete', delete_todo),
+
+
     path('summernote/', include('django_summernote.urls')),
+    
 
 ]
 
