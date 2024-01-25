@@ -1,7 +1,7 @@
 
 
 <p align="center">
-<img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="100" height="150" />
+<img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="150" height="150" />
 </p>
 
 
@@ -10,4 +10,4 @@ to organize your daily tasks. Achieve your goals with elegance and efficiency, w
  enhance your productivity and make task management a truly enjoyable experience" 
 
 
- ##  Please ⭐ the repo to support our project 
+ ##  Please ⭐ the repo to support our project ...
