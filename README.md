@@ -5,7 +5,7 @@
 </p>
 
 
-Certainly! Django-todo is an impressive task management and assignment application for Django. It’s designed to be pluggable, multi-user, and multi-group, making it versatile for various use cases:
+* Certainly! Django-todo is an impressive task management and assignment application for Django. It’s designed to be pluggable, multi-user, and multi-group, making it versatile for various use cases:
 
 1. Personal To-Do Tracker: Use it to manage your own tasks efficiently.
 2. Group Task Management System: Collaborate with others by organizing tasks within groups.
@@ -22,9 +22,9 @@ Certainly! Django-todo is an impressive task management and assignment applicati
 - Integrated Mail Tracking: Unify task lists with email communication.
 - To explore more, you can visit the live demo site at django-todo.org and experience how this cutting-edge technology can enhance your productivity and make task management enjoyable! 🚀📝
 
-Remember that Django-todo requires Django 2.0+ and Python 3.6+. Whether you’re an individual user or part of an organization, this powerful tool awaits you! 😊
+* Remember that Django-todo requires Django 2.0+ and Python 3.6+. Whether you’re an individual user or part of an organization, this powerful tool awaits you ! 😊📝
 
-For installation instructions and further details, check out the django-todo PyPI page or the GitHub repository. Happy organizing! 🌟
+* For installation instructions and further details, check out the django-todo PyPI page or the GitHub repository. Happy organizing ! 🌟📝
 
 
 
