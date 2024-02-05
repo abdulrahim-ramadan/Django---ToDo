@@ -1,7 +1,7 @@
 
 
 <p align="center">
-<img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="150" height="150" />
+<img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="82" height="82" />
 </p>
 
 
