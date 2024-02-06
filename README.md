@@ -12,14 +12,14 @@
 3. Ticketing System for Organizations: Streamline ticket management and enhance productivity..
 4. Here are some key features of Django-todo:
 
-- Drag and Drop Task Prioritization: Easily reorder tasks based on priority.
-- Email Task Notification: Get notified when new tasks are created.
-- Comments on Tasks: Collaborate with colleagues by adding comments.
-- Public-Facing Submission Form for Tickets: Ideal for organizations handling external requests.
-- Mobile-Friendly (Work in Progress): Access your tasks on the go.
-- Batch Import/Export Tasks via CSV: Efficiently manage large task lists.
-- Multiple File Attachments per Task: Attach relevant files to tasks.
-- Integrated Mail Tracking: Unify task lists with email communication.
+- Drag and Drop Task Prioritization: Easily reorder tasks based on priority..
+- Email Task Notification: Get notified when new tasks are created..
+- Comments on Tasks: Collaborate with colleagues by adding comments..
+- Public-Facing Submission Form for Tickets: Ideal for organizations handling external requests..
+- Mobile-Friendly (Work in Progress): Access your tasks on the go..
+- Batch Import/Export Tasks via CSV: Efficiently manage large task lists..
+- Multiple File Attachments per Task: Attach relevant files to tasks..
+- Integrated Mail Tracking: Unify task lists with email communication..
 - To explore more, you can visit the live demo site at django-todo.org and experience how this cutting-edge technology can enhance your productivity and make task management enjoyable!! 🚀📝
 
 * Remember that Django-todo requires Django 2.0+ and Python 3.6+. Whether you’re an individual user or part of an organization, this powerful tool awaits you !! 😊📝
