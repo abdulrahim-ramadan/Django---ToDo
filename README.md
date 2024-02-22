@@ -24,7 +24,7 @@
 
 * Remember that Django-todo requires Django 2.0+ and Python 3.6+. Whether you’re an individual user or part of an organization, this powerful tool awaits you !! 😊📝🌟
 
-* For installation instructions and further details, check out the django-todo PyPI page or the GitHub repository. Happy organizing !! 🌟📝🌟
+* For installation instructions and further details, check out the django-todo PyPI page or the GitHub repository. Happy organizing !! !🌟📝🌟
 
 
 
