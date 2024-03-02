@@ -10,4 +10,4 @@ to organize your daily tasks. Achieve your goals with elegance and efficiency, w
  enhance your productivity and make task management a truly enjoyable experience" 
 
 
- ##  Please ⭐ the repo to support our project 
+ ####  Please ⭐ the repo to support our project 
